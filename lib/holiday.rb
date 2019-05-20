@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize!
       end
       holidayString = "  " + holdayArr.join(" ")
-      
+
       supplyString = supplies.join(", ")
       puts "#{holidayString}: #{supplyString}"
     end
