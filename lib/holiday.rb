@@ -80,7 +80,9 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies|
       holidayString = holiday.to_s
       supplyString = supplies.join(", ")
-      puts "#{}"
+      puts "#{holidayString}: #{supplyString}"
+    end
+  end
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
