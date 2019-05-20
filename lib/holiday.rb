@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
     seasonString = season.to_s.capitalize
     puts "#{seasonString}:"
     holidays.each do |holiday, supplies|
-      holidayArr = holiday.to_s.split
+      holidayArr = holiday.to_s.split("_")
       holidayArr.each do |word|
         word.capitalize!
       end
