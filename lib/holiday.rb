@@ -46,7 +46,6 @@ def add_supply_to_memorial_day(holiday_hash, supply)
           supplies << supply
         end
       end
-    end
   end
 
 holiday_hash
